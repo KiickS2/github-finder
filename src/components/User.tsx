@@ -33,7 +33,7 @@ const User = ({
           <p className={styles.numbers}>{following}</p>
         </div>
       </div>
-      <Link to={`/repos/${login}`}>Ver melhores projetos</Link>
+      <Link to={`/repos/${login}`}>Conferir projetos</Link>
     </div>
   );
 };
