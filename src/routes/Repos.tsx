@@ -42,7 +42,7 @@ const Repos = () => {
   return (
     <div className={styles.repos}>
       <BackBtn />
-      <h2>Explore os repositórios do usuário: {username}</h2>
+      <h2>Explore os repositórios do usuário: <i>{username}</i></h2>
       {repos && repos.length === 0 && <p>Não há repositório.</p>}
       {repos && repos.length > 0 && (
         <div className={styles.reposContainer}>
